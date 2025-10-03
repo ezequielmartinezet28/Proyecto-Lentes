@@ -1,2 +1,4 @@
 # Proyecto-Lentes
-Lentes los cuales mediante un sensor ultrasonico detecta objetos y manda una señal al arduino nano, el cual luego activa el buzzer y emite un sonido advirtiendo del objeto delante.
+Este codigo fue diseñado para que funcione en un Arduino Nano.
+El proyecto utiliza un sensor ultrasonico el cual mediante ondas ultrasonicas detecta los objetos que tiene delante y luego activa el buzzer.
+El Arduino esta codificado para detectar nada mas que los objetos que estan a una distancia menor a 100cm o 1m. Cuando la distancia vaya disminuyendo, la velocidad con la que el buzzer oscila va aumentando para indicar lo cerca que se encuentra el objeto.
